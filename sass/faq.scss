@@ -1,0 +1,49 @@
+.faq-page {
+  .content-container {
+    p {
+      padding-right: 30px;
+    }
+    h2 {
+      @include content-h2;
+      font-weight: normal;
+      margin-bottom: 0;
+      & + p {
+        margin-top: 12px;
+      }
+    }
+    h3:first-of-type {
+      margin-top: 21px;
+    }
+    h3 {
+      @include content-h2;
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 0;
+      & + p {
+        margin-top: 12px;
+      }
+    }
+    h4 {
+      font-family: $font-sans-serif;
+      color: $dark-blue-text;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0;
+      & + p {
+        margin-top: 12px;
+      } 
+    }
+    & > h2 {
+      color: #fff;
+      font-size: 76px;
+      font-weight: normal;
+      margin: 0;
+      top: 293px;
+      right: 34px;
+    }
+    blockquote + p {
+      text-align: right;
+      padding-right: 43px;
+    }
+  }  
+}

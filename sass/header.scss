@@ -1,0 +1,123 @@
+header {
+  position: relative;
+  padding-top: 15px;
+  .header-image {
+    display: inline-block;
+  }
+  .logo-container {
+    .logo {
+      // width: 106px;
+      // margin-left: 7px;
+      width: 10.36%;
+      min-width: 45px;
+    }
+    .logo-text {
+      padding-bottom: 3.2%;
+      margin-left: 0.8%;
+      width: 47.66%;
+      min-width: 232px;
+    }
+  }
+  .header-illustration {
+    // width: 385px;
+    width: 37.6%;
+    height: 100%;
+    position: absolute;
+    right: 1%;
+    top: 0px;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  nav.site-nav {
+    margin-top: 17px;
+    width: 100%;
+    ul {
+      display: table;
+      li {
+        display: table-cell;
+        width: 1%;
+        white-space: pre;
+        text-align: center;
+        list-style: none;
+        font-size: 19px;
+        font-family: 'Open Sans', sans-serif;
+        // display: inline-block;
+        font-weight: 600;
+        // margin: 0 29px;
+        &:hover {
+          color: #0C80AB;
+        }
+      }
+      li:first-of-type {
+        // margin-left: 58px;
+      }
+      li:last-of-type {
+        margin-right: 0px;
+      }
+    }
+  }
+}
+
+body.home, body.faq {
+  header {
+    .header-illustration {
+      background-image: url('img/aprons.gif');
+      background-position-y: 18px;
+    }
+  }
+}
+
+body.about, body.waffle-church, body.page-template-recordings {
+  header {
+    .header-illustration {
+      background-image: url('img/bread.jpg');
+      background-position-y: 18px;
+    }
+  }
+}
+
+body.worship {
+  header {
+    .header-illustration {
+      background-image: url('img/pans.jpg');
+      background-position-y: 11px;
+    }
+  }
+}
+
+body.dinner-church, body.events, body.learn {
+  header {
+    .header-illustration {
+      background-image: url('img/vegetables.jpg');
+    }
+  }
+}
+
+body.vespers, body.support {
+  header {
+    .header-illustration {
+      background-image: url('img/spoons.jpg');
+      background-position-y: 11px;
+    }
+  }
+}
+
+body.co-working {
+  header {
+    .header-illustration {
+      background-image: url('img/chairs.jpg');
+      background-position-y: -3px;
+    }
+  }
+}
+
+body.visit {
+  header {
+    .header-illustration {
+      background-image: url('img/cups.jpg');
+      background-position-y: 0px;
+      background-position-x: 13px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.dinner-church-page {
+  .content-container {
+    img.dinner-church-image {
+      width: 690px;
+    }
+    h2 {
+      position: absolute;
+      top: -48px;
+      z-index: 1000;
+      right: 49px;
+      color: #fff;
+      font-family: "EB Garamond", serif;
+      font-size: 76px;
+      text-align: right;
+      line-height: 1;
+      text-shadow: 3px 6px 1px rgba(0, 0, 0, 0.5);
+      word-spacing: 6px;
+      font-weight: normal;
+    }
+    p {
+      padding-right: 30px;
+    }
+    h3 {
+      @include content-h2;
+      font-weight: normal;
+      margin-bottom: 0;
+      & + p {
+        margin-top: 12px;
+      }
+    }
+    h4 {
+      @include content-h2;
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 0;
+      & + p {
+        margin-top: 12px;
+      }
+    }
+    h5 {
+      font-family: $font-sans-serif;
+      color: $dark-blue-text;
+      font-size: 16px;
+      font-weight: 700;
+      margin: 0;
+      & + p {
+        margin-top: 12px;
+      } 
+    }
+  }
+}

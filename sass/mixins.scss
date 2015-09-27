@@ -1,0 +1,21 @@
+@mixin content-h2 {
+  font-family: $font-serif;
+  color: $dark-blue-text;
+  margin: 10px 0;
+  font-size: 36px;
+}
+
+// About Page
+
+@mixin bio-image {
+  width: 173px;
+  float: left;
+  margin: 0 25px 4px 0;
+}
+
+@mixin bio-heading {
+  color: #4c879b;
+  font-size: 28px;
+  font-family: $font-sans-serif-condensed;
+  margin: 20px 0 -5px 0;
+}

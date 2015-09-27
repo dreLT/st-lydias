@@ -1,0 +1,138 @@
+// Text Links
+
+.content-container p a {
+  color: $teal-text;
+  text-decoration: underline;
+}
+
+ul {
+  padding: 0;
+}
+
+// Page Heading Text
+
+.content-container {
+  position: relative;
+  & > h2 {
+    position: absolute;
+    top: 228px;
+    z-index: 1000;
+    right: 41px;
+    color: #fff;
+    font-family: "EB Garamond", serif;
+    font-size: 76px;
+    text-align: right;
+    line-height: 1;
+    text-shadow: 3px 6px 1px rgba(0, 0, 0, 0.5);
+    word-spacing: 6px;
+    font-weight: normal;
+  }
+  .service {
+    h2 {
+      font-size: 80px;
+      position: absolute;
+      z-index: 1000;
+      bottom: -46px;
+      right: 43px;
+      color: #fff;
+      font-family: "EB Garamond", serif;
+      text-align: right;
+      line-height: 1;
+      text-shadow: 3px 6px 1px rgba(0, 0, 0, 0.5);
+      word-spacing: 6px;
+      font-weight: normal;
+    }
+  }
+}
+
+.service {
+  
+}
+
+// Sidebar
+
+aside.sidebar {
+  width: 30%;
+  float: left;
+  .services-info {
+    background-color: #75C8DA;
+    border-radius: 20px;
+    background-image: url("img/logo-transparent.png");
+    background-repeat: no-repeat;
+    background-size: 44%;
+    background-position: -20px -14px;
+    text-align: center;
+    padding-bottom: 23px;
+    margin-bottom: 14px;
+    .sidebar-heading {
+      padding-left: 92px;
+      h2 {
+        margin: 0;
+        font-family: $font-serif;
+        font-size: 39px;
+        font-weight: 300;
+        color: #00678e;
+      }
+      p {
+        font-size: 19px;
+        margin-top: 13px;
+      }
+    }
+    .services-list {
+      h3, h4 {
+        font-family: $font-serif;
+        font-weight: 300;
+        margin-bottom: 0;
+      }
+      h3 {
+        color: #00678e;
+        font-size: 30px;
+        margin-top: 9px;
+      }
+      h4 {
+        font-size: 26px;
+        margin-top: 14px;
+      }
+      p {
+        color: #115169;
+        margin: 0;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+// Support Button
+
+.support-button {
+  background-color: #5795A9;
+  border-radius: 20px;
+  padding: 8px 0 9px 15px;
+  width: 307px;
+  line-height: 1.2;
+  display: block;
+  span {
+    display: block;
+  }
+  span:nth-of-type(1) {
+    font-family: $font-serif;
+    font-size: 24px;
+    color: #AEE3F7;
+  }
+  span:nth-of-type(2) {
+    font-family: $font-sans-serif-condensed;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+}
+
+.content-container {
+  width: 70%;
+  float: left;
+}
+
+// Clearfix for page containers
+main {
+  overflow: hidden;
+}

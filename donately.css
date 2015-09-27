@@ -1,0 +1,9 @@
+.donately-btn {
+	display: none;
+	/*@media only screen and (max-width:767px) {
+		display: block;
+		margin: 0 auto;
+		width: 40%;
+		height: 51px;
+	}*/
+}

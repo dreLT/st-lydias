@@ -1,0 +1,48 @@
+.about-page {
+  overflow: hidden;
+  margin-top: 5px;
+  .content-container {
+    .about-content {
+      h2 {
+        @include content-h2;
+      }
+    }
+    .bio {
+      margin-bottom: 39px;
+      .bio-img {
+        @include bio-image;
+      }
+      .social-icon {
+        width: 40px;
+        margin-right: 8px;
+      }
+      div.bio-img{
+        background-image: url("img/sarah.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 173px;
+        height: 173px;
+        border-radius: 86px;
+        background-position-y: 0px;
+      }
+      h3 {
+        @include bio-heading;
+      }
+      
+    }
+  }  
+}
+
+@media only screen and (max-width:1080px) {
+  .about-page {
+    .content-container {
+      width: 100%;
+    }
+    #about-video {
+      display: none;
+    }
+    aside.sidebar {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,116 @@
+.events-page {
+  .content-container {
+    & > h2 {
+      color: #fff;
+      font-size: 78px;
+      top: 302px;
+      left: 3px;
+      right: initial;
+    }
+    .header-image-container {
+      background-image: url(img/events.jpg);
+      width: 690px;
+      height: 467px;
+    }
+    h3 {
+      font-family: $font-serif;
+      color: #1A779B;
+      margin: 10px 0;
+      font-size: 38px;
+      margin-top: 18px;
+    }
+    article {
+      padding-bottom: 29px;
+      // min-height: 305px;
+      border-bottom: 1px solid #B7E3EC;
+      .event-image img {
+        float: left;
+        margin-right: 20px;
+        padding-top: 10px;
+      }
+      .event-description {
+        margin-top: 12px;
+      }
+    }
+    .email-list-button {
+      display: block;
+      width: 57.3%;
+      height: 100px;
+      background: $dark-blue-text;
+      color: #3B688C;
+      border-radius: 20px;
+      border: 0px;
+      box-shadow: 3px 3px 3px #4C879B;
+      margin-top: 20px;
+      text-align: left;
+      padding-left: 25px;
+      padding-top: 10px;
+      line-height: .9;
+      transition: all .3s;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -o-transition: all .3s;
+      &:hover {
+        background: #73AEBB;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px #4C879B;
+      }
+      span:first-of-type {
+        font-size: 36px;
+        font-family: $font-serif;
+        color: #98D5EA;
+      }
+      span:nth-of-type(2) {
+        font-family: $font-sans-serif-condensed;
+        font-size: 44px;
+        line-height: 1em;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+// For use in Event List and Event Single
+
+.event-title {
+  text-transform: uppercase;
+  font-family: $font-sans-serif-condensed;
+  margin-bottom: 0;
+  font-size: 32px;
+  color: #4c879b;
+  margin-top: 14px;
+}
+
+.event-details {
+  @extend .event-title;
+  font-size: 22px;
+  color: #7bbecd;
+  a {
+    color: #7bbecd;
+  }
+}
+
+// Mobile
+
+@media only screen and (max-width:1080px) {
+  .events-page {
+    .content-container {
+      h2 {
+        top: 426px;
+        left: 4px;
+      }
+    }
+  }
+}
+@media only screen and (max-width:767px) {
+  .events-page {
+    .content-container {
+      h2 {
+        top: -8vw;
+        right: 10px;
+        display: none;
+      }
+    }
+  }
+}

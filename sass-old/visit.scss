@@ -1,0 +1,52 @@
+.visit-page {
+  .content-container {
+    width: auto;
+    clear: left;
+      .upper-content {
+        .visit-image {
+          float: left;
+          width: 648px;
+        }
+        iframe {
+          margin-left: 21px;
+        }
+      }
+    .lower-content {
+      overflow: hidden;
+      .information {
+        float: left;
+        width: 640px;
+        h2 {
+          position: initial;
+          color: $dark-blue-text;
+          font-family: $font-serif;
+          font-size: 40px;
+          text-shadow: none;
+          text-align: left;
+          margin-top: 20px;
+          margin-bottom: 21px;
+        }
+        .address {
+          color: $teal-text;
+          font-size: 26px;
+          line-height: 1.5;
+          font-family: $font-serif;
+          margin-top: 0;
+          margin-bottom: 26px;
+        }
+        .support-button {
+          margin-top: 33px;
+        }
+      }
+      aside.sidebar {
+        float: left;
+        width: 30%;
+        margin-left: 52px;
+        margin-top: 27px;
+        .support-button {
+          display: none;
+        }
+      }
+    }
+  }
+}

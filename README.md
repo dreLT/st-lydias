@@ -1,6 +1,8 @@
 #Wordpress Site for St. Lydia's - A Dinner Church and Co-Working Space in Brooklyn
 
-A Wordpress site a I recently developed for a client. It is mostly responsive at this point, minus a few pages which I am finishing. Also, I will likely implement a dropdown that will replace the traditional top navigation on mobile screens, as well as applying design fixes per the client.
+A Wordpress site a I recently developed for a client. The website is live at: [http://www.stlydias.org](http://www.stlydias.org). 
+
+It is mostly responsive at this point, minus a few pages which I am finishing. Also, I will likely implement a dropdown that will replace the traditional top navigation on mobile screens, as well as applying design fixes per the client.
 
 ## Folders
 `/` 
